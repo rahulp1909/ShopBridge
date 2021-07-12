@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
+    <form [formGroup]="form" (submit)="onSavePost()"  *ngIf="!isLoading">
+      <mat-form-field>
+        <input matInput type="name" name="name" placeholder="Name" formControlName="name" required />
+        <mat-error *ngIf="form.get('name').invalid">Please enter the name for a product.</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <textarea matInput rows="6" name="description" placeholder="Description" formControlName="description" required ></textarea>
+        <mat-error *ngIf="form.get('description').invalid">Please enter the description for a product.</mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <textarea matInput name="price" placeholder="Price" formControlName="price" required ></textarea>
+        <mat-error *ngIf="form.get('price').invalid">Please enter the price for a product(Numeric).</mat-error>
+      </mat-form-field>
+  
+      <button  mat-raised-button  color="accent" type="submit">Add Product</button>
+    </form>
+  </mat-card>
+  
+  

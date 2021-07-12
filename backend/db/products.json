@@ -1,0 +1,36 @@
+{
+  "1625975137094": {
+    "id": "1625975137094",
+    "name": "test",
+    "description": "test1111",
+    "price": "20",
+    "creator": 1
+  },
+  "1625975212258": {
+    "id": 1625975212258,
+    "name": "test",
+    "description": "ter",
+    "price": "12",
+    "creator": 1
+  },
+  "1625975365542": {
+    "id": 1625975365542,
+    "name": "Test Product",
+    "description": "This is the test",
+    "price": "20",
+    "creator": 1
+  },
+  "1625977761603": {
+    "id": 1625977761603,
+    "name": "test",
+    "description": "test",
+    "price": "21",
+    "creator": 1
+  },
+  "1625989129109": {
+    "name": "Product 1",
+    "description": "This is the dummy product.",
+    "price": "100",
+    "creator": 2
+  }
+}
