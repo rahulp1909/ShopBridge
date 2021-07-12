@@ -6,7 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `npm run start:serve` for a dev api server. Navigate to `http://localhost:3000/`.
+Run `npm run start:serve` for a dev api server. Navigate to `http://localhost:3000/`. Server side code inside the backend folder and the data stores inside the json files which are under the db folder.
+
+
+## Demo login details
+Demo login details - test1@gmail.com / password1 or test2@gmail.com / password2
 
 ## Code scaffolding
 
